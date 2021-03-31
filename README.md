@@ -1,8 +1,10 @@
 # CityFreight: Collected Data
 
+This data is made available as part of a ......... FINISH
 
 
-## `links_Bergen.csv`: Transportation Network of Bergen
+
+## `links_Bergen.csv` - Transportation Network of Bergen
 
 This dataset includes all links within the Bergen municipality collected from the NVDB database provided by Statens vegvesen (Norwegian Public Roads Administration) and contains data under the Norwegian licence for Open Government Data (NLOD) distributed by Statens vegvesen. Where it applies, links were matched with speed limits, height restrictions, roadblocks and turn restrictions (also acquired from NVDB). Numerous errors in the data were corrected according to the actual state.
 
@@ -28,7 +30,7 @@ noFlowMOT | List of links connected to the start node which are not allowed to c
 
 
 
-## apartments_Bergen.csv  -  Apartments in Bergen
+## `apartments_Bergen.csv`  -  Apartments in Bergen
 
 The majority of the apartment data has been acquired from Kartverket (Norwegian Mapping Authority) by using information from the annual “Matrikkelen Adresse Leilighetsnivå” (version 2020) under the CC BY 4.0 licence. The data includes official and complete addresses of buildings in the Bergen municipality, together with unique apartments within each building (if there are any). The data includes address, postal district, statistical unit and town. The estimated population at a building/apartment has been generated through a master’s thesis conducted by Fang and Opedal (2020) .
 
@@ -56,7 +58,7 @@ antallpersoner | The estimated population at a building/apartment
 
 The travel speed data in Bergen have been collected from an operational work conducted by Statens vegvesen (Norwegian Public Roads Administration) using the simulation software AIMSUN. The dataset is divided into five files with the following variables:
 
-### speed_simulation_Bergen.csv  -  Description of the simulation rounds
+### `speed_simulation_Bergen.csv`  -  Description of the simulation rounds
 
 Variable | Description
 -------- | -----------
@@ -66,7 +68,7 @@ from_time | Starting time of the simulation from the midnight (in seconds)
 duration | The duration of the simulation (in seconds)
 simdetecintervals | The interval time for capturing data
 
-### speed_vehicles_Bergen.csv  -  Information on vehicle types used in the simulation
+### `speed_vehicles_Bergen.csv`  -  Information on vehicle types used in the simulation
 
 Variable | Description
 -------- | -----------
@@ -74,7 +76,7 @@ did | A numeric ID given of a unique simulation
 pos | The numeric position of a vehicle type 
 oname | The description of the vehicle type
 
-### speed_detectors_Bergen.csv  -  information on detectors located in selected roads to gather the data
+### `speed_detectors_Bergen.csv`  -  information on detectors located in selected roads to gather the data
 
 Variable | Description
 -------- | -----------
@@ -84,7 +86,7 @@ To_lane | The right most lane where the detector is located
 xcoord | The X coordinate of the located detector
 ycoord | The Y coordinate of the located detector
 
-### speed_output_Bergen.csv  -  generated data from the detectors
+### `speed_output_Bergen.csv`  -  generated data from the detectors
 
 Variable | Description
 -------- | -----------
@@ -105,7 +107,7 @@ occupancy_D | The standard deviation on occupancy
 headway | Average time interval between the detection of two consecutive vehicle arrivals (in seconds)
 headway_D | The standard deviation on headway
 
-### speed_average_Bergen.csv  -  average speed and flow over all simulations for each vehicle type
+### `speed_average_Bergen.csv` - average speed and flow over all simulations for each vehicle type
 
 Variable | Description
 -------- | -----------
