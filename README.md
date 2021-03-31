@@ -31,7 +31,7 @@ noFlowMOT | List of links connected to the start node which are not allowed to c
 
 ## `apartments_Bergen.csv`  -  Apartments in Bergen
 
-The majority of the apartment data has been acquired from Kartverket (Norwegian Mapping Authority) by using information from the annual “Matrikkelen Adresse Leilighetsnivå” (version 2020) under the CC BY 4.0 licence. The data includes official and complete addresses of buildings in the Bergen municipality, together with unique apartments within each building (if there are any). The data includes address, postal district, statistical unit and town. The estimated population at a building/apartment has been generated through a master’s thesis conducted by Fang and Opedal (2020; *Available from* https://hdl.handle.net/11250/2683764). For more information on the estimation, kindly refer to the thesis.
+The majority of the apartment data has been acquired from Kartverket (Norwegian Mapping Authority) by using information from the annual “Matrikkelen Adresse Leilighetsnivå” (version 2020) under the CC BY 4.0 licence. The data includes official and complete addresses of buildings in the Bergen municipality, together with unique apartments within each building (if there are any). The data includes address, postal district, statistical unit and town. The estimated population at a building/apartment has been generated through a master’s thesis conducted by [Fang and Opedal (2020)](https://hdl.handle.net/11250/2683764). For more information on the estimation, kindly refer to the thesis.
 
 Description of variables:
 
