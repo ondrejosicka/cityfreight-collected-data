@@ -1,6 +1,6 @@
 # CityFreight: Collected Data
 
-This data is made available as part of a research project [Freight Logistics in Smart Cities (CityFreight; project number 308790)](https://prosjektbanken.forskningsradet.no/project/FORISS/308790), funded by the Research Council of Norway and led by [Stein W. Wallace](https://www.nhh.no/en/employees/faculty/stein-w.-wallace/), Professor at NHH Norwegian School of Economics. The aim of this project is to provide public authorities with a toolbox for realistically evaluating major decisions that would make freight transportation in a city more energy-efficient and sustainable.
+This data has been made available as part of a research project [Freight Logistics in Smart Cities (CityFreight; project number 308790)](https://prosjektbanken.forskningsradet.no/project/FORISS/308790), funded by the Research Council of Norway and led by [Stein W. Wallace](https://www.nhh.no/en/employees/faculty/stein-w.-wallace/), Professor at NHH Norwegian School of Economics. The aim of this project is to provide public authorities with a toolbox for realistically evaluating major decisions that would make freight transportation in a city more energy-efficient and sustainable.
 
 
 ## `links_Bergen.csv` - Transportation Network of Bergen
