@@ -32,7 +32,7 @@ noFlowMOT | List of links connected to the start node which are not allowed to c
 
 ## `apartments_Bergen.csv`  -  Apartments in Bergen
 
-The majority of the apartment data has been acquired from Kartverket (Norwegian Mapping Authority) by using information from the annual “Matrikkelen Adresse Leilighetsnivå” (version 2020) under the CC BY 4.0 licence. The data includes official and complete addresses of buildings in the Bergen municipality, together with unique apartments within each building (if there are any). The data includes address, postal district, statistical unit and town. The estimated population at a building/apartment has been generated through a master’s thesis conducted by Fang and Opedal (2020) .
+The majority of the apartment data has been acquired from Kartverket (Norwegian Mapping Authority) by using information from the annual “Matrikkelen Adresse Leilighetsnivå” (version 2020) under the CC BY 4.0 licence. The data includes official and complete addresses of buildings in the Bergen municipality, together with unique apartments within each building (if there are any). The data includes address, postal district, statistical unit and town. The estimated population at a building/apartment has been generated through a master’s thesis conducted by Fang and Opedal (2020; *Available from https://hdl.handle.net/11250/2683764*). For more information on the estimation, kindly refer to the thesis.
 
 Description of variables:
 
@@ -76,7 +76,7 @@ did | A numeric ID given of a unique simulation
 pos | The numeric position of a vehicle type 
 oname | The description of the vehicle type
 
-### `speed_detectors_Bergen.csv`  -  information on detectors located in selected roads to gather the data
+### `speed_detectors_Bergen.csv`  -  Information on detectors located in selected roads to gather the data
 
 Variable | Description
 -------- | -----------
@@ -86,7 +86,7 @@ To_lane | The right most lane where the detector is located
 xcoord | The X coordinate of the located detector
 ycoord | The Y coordinate of the located detector
 
-### `speed_output_Bergen.csv`  -  generated data from the detectors
+### `speed_output_Bergen.csv`  -  Generated data from the detectors
 
 Variable | Description
 -------- | -----------
@@ -107,7 +107,7 @@ occupancy_D | The standard deviation on occupancy
 headway | Average time interval between the detection of two consecutive vehicle arrivals (in seconds)
 headway_D | The standard deviation on headway
 
-### `speed_average_Bergen.csv` - average speed and flow over all simulations for each vehicle type
+### `speed_average_Bergen.csv` - Average speed and flow over all simulations for each vehicle type
 
 Variable | Description
 -------- | -----------
