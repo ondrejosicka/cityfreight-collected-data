@@ -1,7 +1,6 @@
 # CityFreight: Collected Data
 
-This data is made available as part of a ......... FINISH
-
+This data is made available as part of a research project Cityfreight (Project number 308790), funded by the Research Council of Norway, which aims to provide public authorities with a toolbox for realistically evaluating major decisions that would make freight transportation in a city more energy-efficient and sustainable.
 
 
 ## `links_Bergen.csv` - Transportation Network of Bergen
