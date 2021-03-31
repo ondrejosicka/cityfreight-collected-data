@@ -52,3 +52,68 @@ antallpersoner | The estimated population at a building/apartment
 
 
 
+## Travel speed data in Bergen
+
+The travel speed data in Bergen have been collected from an operational work conducted by Statens vegvesen (Norwegian Public Roads Administration) using the simulation software AIMSUN. The dataset is divided into five files with the following variables:
+
+### speed_simulation_Bergen.csv  -  Description of the simulation rounds
+
+Variable | Description
+-------- | -----------
+did | A numeric ID given for a unique simulation
+didname | The description of the corresponding simulation
+from_time | Starting time of the simulation from the midnight (in seconds)
+duration | The duration of the simulation (in seconds)
+simdetecintervals | The interval time for capturing data
+
+### speed_vehicles_Bergen.csv  -  Information on vehicle types used in the simulation
+
+Variable | Description
+-------- | -----------
+did | A numeric ID given of a unique simulation
+pos | The numeric position of a vehicle type 
+oname | The description of the vehicle type
+
+### speed_detectors_Bergen.csv  -  information on detectors located in selected roads to gather the data
+
+Variable | Description
+-------- | -----------
+id | A numeric ID given for each detector
+From_lane | The left most lane where the detector is located
+To_lane | The right most lane where the detector is located
+xcoord | The X coordinate of the located detector
+ycoord | The Y coordinate of the located detector
+
+### speed_output_Bergen.csv  -  generated data from the detectors
+
+Variable | Description
+-------- | -----------
+oid | The object ID for generating the data, which corresponds to the numeric ID given for each detector
+did | A numeric ID given of a unique simulation
+sid | The position of the sub-object, which corresponds to the position of a vehicle type in the information table for detectors
+ent | A numeric value given for each interval
+countveh | The number of vehicles passing by through the detector per interval 
+countveh_D | The standard deviation on vehicle count
+flow | The number of vehicles passing by through the detector per hour
+flow_D | The standard deviation on flow
+speed | The average speed of vehicles that are passing by through the detector (km/h)
+speed_D | The standard deviation on speed
+density | The measurement on the crowdedness of the road, which is based on the number of vehicles per kilometer
+density_D | The standard deviation on density
+occupancy | The occupancy rate of the corresponding road, which is based on the percentage of time that the detector is active
+occupancy_D | The standard deviation on occupancy
+headway | Average time interval between the detection of two consecutive vehicle arrivals (in seconds)
+headway_D | The standard deviation on headway
+
+### speed_average_Bergen.csv  -  average speed and flow over all simulations for each vehicle type
+
+Variable | Description
+-------- | -----------
+id | A numeric ID given for each detector
+xcoord | The X coordinate of the located detector
+ycoord | The Y coordinate of the located detector
+oname | The description of the vehicle type
+speed | The average speed of vehicles that are passing by through the detector
+flow | The number of vehicles passing by through the detector per hour
+
+
